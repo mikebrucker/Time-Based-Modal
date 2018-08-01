@@ -1,0 +1,122 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: yellow;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+h1{
+    font-size: 80px;
+}
+
+h1, footer {
+    color: yellow;
+    background-color: darkblue;
+}
+
+.header {
+    font-size: 36px;
+    background-color: darkorange;
+    color: darkblue;
+}
+
+h1, .header, footer{
+    text-align: center;
+    height: 80px;
+    padding: 20px;
+}
+
+.content > p {
+    border: 4px solid darkblue;
+    margin: 8px auto;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gold;
+}
+
+footer {
+    font-size: 28px;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+#modalContent {
+    position: relative;
+    display: block;
+    margin: 100px auto;
+    width: 50%;
+    height: 50%;
+    color: darkblue;
+    background-color: rgba(255, 255, 0, 0.8);
+    border: 4px solid gray;
+    border-radius: 20px;
+}
+
+#modalContent > div {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#modalContent > img {
+    margin: 10px 0 0;
+    height: 100px;
+}
+
+#modalContent > p {
+    margin: 20px;
+}
+
+#modalContent > p > #inputEmail, #modalContent > p > button {
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 139, 0.9);
+    border-radius: 8px;
+}
+
+#modalContent > p > button {
+border-bottom: 2px solid rgb(0, 0, 59);
+}
+
+#modalContent > p > button:active {
+    position: relative;
+    top: 2px;
+    border-bottom: none;
+}
+
+@media all and (max-width: 888px) {
+
+    .header, footer {
+        font-size: 36px;
+        height: auto;
+    }
+    
+    h1 {
+        font-size: 48px;
+        height: auto;
+    }
+}
+@media all and (max-width: 480px) {
+
+    #modalContent {
+        width: 240px;
+        height: 360px;
+    }
+}
