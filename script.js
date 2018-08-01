@@ -2,7 +2,7 @@
 function index() {
     setTimeout(function () { 
         document.querySelector('#modal').style = 'display: block';
-        document.querySelector('#modalContent').innerHTML = "<div onclick='closeModal()'>&times;</div><img src='images/thumbsup.png' /><p>Enter your fake email address to win fake money!</p><p><input type='text' id='inputEmail' /></p><p><input type='checkbox' name='checkbox' id='checkbox' /><label for='checkbox'>Agree to fake terms</label></p><p><button id='submit' type='submit' onclick='submitEmail()'>Enter Email</button></p>";
+        document.querySelector('#modalContent').innerHTML = "<div onclick='closeModal()'>&times;</div><img src='images/thumbsup.png' /><p>Enter your name to win fake money!</p><p><input type='text' id='inputEmail' /></p><p><input type='checkbox' name='checkbox' id='checkbox' /><label for='checkbox'>Agree to fake terms</label></p><p><button id='submit' type='submit' onclick='submitEmail()'>Enter Name</button></p>";
     }, 1200);
 }
 
