@@ -16,13 +16,13 @@ h1{
 }
 
 h1, footer {
-    color: yellow;
+    color: gold;
     background-color: navy;
 }
 
 .header {
     font-size: 36px;
-    background-color: goldenrod;
+    background-color: gold;
     color: darkblue;
 }
 
