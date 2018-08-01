@@ -4,7 +4,7 @@ body {
     background-color: yellow;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 a {

@@ -3,7 +3,7 @@ body {
     color: rgb(0, 255, 0);
     max-width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .you {
